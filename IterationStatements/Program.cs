@@ -26,7 +26,7 @@
         public static void ThirdChallenge()
         {
 
-
+            Console.WriteLine("Are your Numbers equal? Enter two of them!");
             int first = Convert.ToInt32(Console.ReadLine());
             int second = Convert.ToInt32(Console.ReadLine());
 
@@ -45,6 +45,8 @@
 
         public static void FourthChallenge()
         {
+            Console.WriteLine("Are your numbers event or odd? Enter your number!");
+
             int num1 = Convert.ToInt32(Console.ReadLine());
 
             if (num1 % 2 == 0)
@@ -61,6 +63,7 @@
 
         public static void FifthChallenge()
         {
+            Console.WriteLine("Is your number positive or negative? Enter your number!");
             int num = Convert.ToInt32(Console.ReadLine());
 
             if (num > 0)
@@ -80,6 +83,7 @@
 
         public static void SixthChallenge()
         {
+            Console.WriteLine("Are you old enough to vote? Enter your age");
             int age = int.Parse(Console.ReadLine());
 
             if (age >= 18)
@@ -120,6 +124,7 @@
 
         public static void EighthChallenge()
         {
+            Console.WriteLine("Hey, do you want to know the multiplication table of your number from 1 to 12? Enter your number!");
             var input = int.Parse(Console.ReadLine());
 
           for (int i = 1; i <= 12; i++)
